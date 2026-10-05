@@ -8,11 +8,11 @@ on:
 
 jobs:
    run-pythoncode:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
 
     steps:
-        -name : checkout code
+        -name: checkout code
         uses: actions/checkout@v7
 
 
